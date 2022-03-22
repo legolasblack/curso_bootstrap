@@ -1,0 +1,7 @@
+inicio del curso:
+
+necesidades:
+
+-visaual studio code
+-un navegador 
+-descargar bootstrap 5 
