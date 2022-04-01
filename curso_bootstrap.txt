@@ -5,3 +5,12 @@ necesidades:
 -visaual studio code
 -un navegador 
 -descargar bootstrap 5 
+
+COMO UTILIZAR BOOTSTRAP
+
+Para utilizar los archivos del framework contamos con dos opciones, de manera local o de manera remota, en la manera local necesitaremos bajar los archivos de css desde el sitio de bootstrap, dentro del comprimido que nos descarga la pagina se encuantran los archivos css y javascript, para utlizarlos solo tendremos que linkear hacia la carpeta donde tenemos los archivos, los de css con la etiqueta link y los archivos javascript con la etiqueta script 
+
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+
+   <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
