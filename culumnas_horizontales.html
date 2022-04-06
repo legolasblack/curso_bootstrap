@@ -1,59 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
-    <style>
-        .conta {
-            border: 2px solid red;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+  <style>
+    .conta {
+      border: 2px solid white;
+    }
 
-        .row {
-            background: black;
-            border: 1px solid white;
-        }
+    .row {
+      background: black;
+      border: 1px solid white;
+      margin-top: 10px;
+    }
 
-        .col {
-            background: greenyellow;
-            text-align: center;
-            padding: 10px;
-            border: 1px solid white;
-        }
-    </style>
+    .col {
+      background: greenyellow;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid grey;
+    }
+
+    .h1_blanco {
+      /* background-color: white; */
+      color: white;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3 col">
-                <h1>columna</h1>
-            </div><div class="col-3 col">
-                <h1>columna</h1>
-            </div><div class="col-3 col">
-                <h1>columna</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h1>columna</h1>
-            </div><div class="col">
-                <h1>columna</h1>
-            </div><div class="col">
-                <h1>columna</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h1>columna</h1>
-            </div><div class="col">
-                <h1>columna</h1>
-            </div><div class="col">
-                <h1>columna</h1>
-            </div>
-        </div>
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="h1_blanco">Ejemplos justify-content-start,center,end</h1>
     </div>
-    
+    <div class="row justify-content-start">
+      <div class="col-3 col">
+        <h1>columna</h1>
+      </div>
+      <div class="col-3 col">
+        <h1>start</h1>
+      </div>
+      <div class="col-3 col">
+        <h1>columna</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col col-3">
+        <h1>columna</h1>
+      </div>
+      <div class="col col-3">
+        <h1>center</h1>
+      </div>
+      <div class="col col-3">
+        <h1>columna</h1>
+      </div>
+    </div>
+    <div class="row justify-content-end">
+      <div class="col  col-3">
+        <h1>columna</h1>
+      </div>
+      <div class="col col-3">
+        <h1>end</h1>
+      </div>
+      <div class="col col-3">
+        <h1>columna</h1>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col  col-3">
+        <h1>columna</h1>
+      </div>
+      <div class="col col-3">
+        <h1>around</h1>
+      </div>
+      <div class="col col-3">
+        <h1>columna</h1>
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col  col-3">
+        <h1>columna</h1>
+      </div>
+      <div class="col col-3">
+        <h1>between</h1>
+      </div>
+      <div class="col col-3">
+        <h1>columna</h1>
+      </div>
+    </div>
+    <div class="row justify-content-evenly ">
+      <div class="col  col-3">
+        <h1>columna</h1>
+      </div>
+      <div class="col col-3">
+        <h1>evenly</h1>
+      </div>
+      <div class="col col-3">
+        <h1>columna</h1>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

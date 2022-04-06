@@ -7,31 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
     <style>
-        /*
-        .container {
-            margin-top: 20px;
-        }
 
-        .row {
-            background: black;
-            padding: 50px;
-            margin-top: 10px;
-        }
-
-        .columna {
-            background: greenyellow;
-
-            border: 1px solid #8d8d8d;
-
-        }
-        */
         .conta {
             border: 2px solid red;
         }
 
         .row {
             background: black;
-            height: 150px;
+            height: 180px;
             border: 1px solid white;
         }
 
@@ -41,44 +24,51 @@
             padding: 10px;
             border: 1px solid white;
         }
+        .h1_blanco{
+            color:white;
+            height: 50px !important;
+        }
     </style>
     <title>col_verticales</title>
 </head>
 
 <body>
     <div class="container-fluid conta">
+        <div class="row h1_blanco">
+            <h1 class="h1_blanco">Ejemplos align-items-start, center, end</h1>
+        </div>
         <div class="row align-items-center">
-            <div class="col">columna #1</div>
-            <div class="col">columna #2</div>
-            <div class="col">columna #3</div>
+            <div class="col"><h1>columna #1</h1></div>
+            <div class="col"><h1>center</h1></div>
+            <div class="col"><h1>columna #3</h1></div>
         </div>
 
     </div>
     <div class="container-fluid">
         <div class="row ">
-            <div class="col columna">columna #1</div>
-            <div class="col columna">columna #2</div>
-            <div class="col columna">columna #3</div>
+            <div class="col"><h1>columna #1</h1></div>
+            <div class="col"><h1>sin propiedad modificando padding</h1></div>
+            <div class="col"><h1>columna #3</h1></div>
         </div>
         <div class="row align-items-start">
-            <div class="col columna">columna #1</div>
-            <div class="col columna">columna #2</div>
-            <div class="col columna">columna #3</div>
+            <div class="col columna"><h1>columna #1</h1></div>
+            <div class="col columna"><h1>start</h1></div>
+            <div class="col columna"><h1>columna #3</h1></div>
         </div>
         <div class="row align-items-center">
-            <div class="col columna">columna #1</div>
-            <div class="col columna">columna #2</div>
-            <div class="col columna">columna #3</div>
+            <div class="col columna"><h1>columna #1</h1></div>
+            <div class="col columna"><h1>center</h1></div>
+            <div class="col columna"><h1>columna #3</h1></div>
         </div>
         <div class="row align-items-end">
-            <div class="col columna">columna #1</div>
-            <div class="col columna">columna #2</div>
-            <div class="col columna">columna #3</div>
+            <div class="col columna"><h1>columna #1</h1></div>
+            <div class="col columna"><h1>end</h1></div>
+            <div class="col columna"><h1>columna #3</h1></div>
         </div>
         <div class="row">
-            <div class="col columna align-self-start">columna #1</div>
-            <div class="col columna align-self-center">columna #2</div>
-            <div class="col columna align-self-end">columna #3</div>
+            <div class="col columna align-self-start"><h1>Alineando </h1></div>
+            <div class="col columna align-self-center"><h1>desde la </h1></div>
+            <div class="col columna align-self-end"><h1>columna</h1></div>
         </div>
     </div> 
 
@@ -86,6 +76,9 @@
 </body>
 
 </html>
-<!--En este ejercicio las solumnas se pueden alinear en tres posiciones 
+<!--En este ejercicio las columnas se pueden alinear en tres posiciones 
 diferente start, center, end y a su vez se puede alinear desde las 
 propiedades de la comunas-->
+<!--En la primer contenedor se especifican bordes de colores para identificar
+cada una de las secciones en cuestion el div.container=rojo,
+el div.row es negro con borde blancoy el div.col=greenyelow con borde blanco-->
