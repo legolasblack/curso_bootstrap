@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <style>
+        /* .container-fluid{
+            border: 1px solid red;
+        }
+        .row{
+            border: 1px solid orange;
+        }
+        .col-6{
+            border: 1px solid greenyellow;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid g-0">
+        <img src="./imagenes/001 (6).jpg" alt="" class="img-fluid">
+        <p>Esta imagen contiene un img-fluid para ser del espacio del container completo</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col-12 col-md-4 g-0">
+                <img src="./imagenes/001 (2).jpg" alt="" class="img-fluid">
+                <p>Esta imagen tiene un img-fluid para adaptarse a su columna de 4 en mediano y 12 en extrachico</p>
+            </div>
+            <div class="col-12 col-md-3 g-0">
+                <img class="img-fluid img-thumbnail d-none d-md-block" src="./imagenes/001 (4).jpg" alt="">
+                <p class="d-none d-md-block">Esta imagen tiene un img-thumbnail para crearle un marquito
+                    estetico y tiene un display none,
+                    d-none y un d-md-block, esto hace que la imagen solo se muestre despues de mediano, antes
+                    de mediano desaparace, al igual que el parrafo.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 g-0">
+                <img class="img-fluid rounded" src="./imagenes/001 (3).jpg" alt="">
+                <p>Esta imagen tiene la propiedad rounded para redondear sus esquinas
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-12 g-0">
+                <figure class="figure">
+                    <img src="./imagenes/001 (8).jpg" alt="" class="img-fluid rounded">
+                    <figcaption class="figure-caption">
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet.
+                            Este parrafo esta configurado diferente ya que el texto esta encerrado dentro de
+                            una estiqueta figure en la cual adentro contiene la imagen con sus propiedades 
+                            y a su vez contiene una etiqueta figcaption que a su vez tiene el parrafo, todo 
+                            esto a su vez hace que la pieza este en un solo div, tambien utilizamos en la columna
+                            un g-0 para modificar el gutter y la imagen no tenga espacios.  
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

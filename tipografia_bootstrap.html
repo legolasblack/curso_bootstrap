@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografia en bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1>Enacabezado h1 <small class="text-muted">Texto secundario</small></h1>
+                <h2>Enacabezado h2 <small class="text-muted">Texto secundario</small></h2>
+                <h3>Enacabezado h3 <small class="text-muted">Texto secundario</small></h3>
+                <h4>Enacabezado h4 <small class="text-muted">Texto secundario</small></h4>
+                <h5>Enacabezado h5 <small class="text-muted">Texto secundario</small></h5>
+                <h6>Enacabezado h6 <small class="text-muted">Texto secundario</small></h6>
+            </div>
+            <div class="col">
+                <p class="h1">Enacabezado h1 <small class="text-muted">Texto secundario</small></p>
+                <p class="h2">Enacabezado h1 <small class="text-muted">Texto secundario</small></p>
+                <p class="h3">Enacabezado h1 <small class="text-muted">Texto secundario</small></p>
+                <p class="h4">Enacabezado h1 <small class="text-muted">Texto secundario</small></p>
+                <p class="h5">Enacabezado h1 <small class="text-muted">Texto secundario</small></p>
+                <p class="h6">Enacabezado h1 <small class="text-muted">Texto secundario</small></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h1 class="display-1">display 1 </h1>
+                <h2 class="display-2">display 2 </h2>
+                <h3 class="display-3">display 3 </h3>
+                <h4 class="display-4">display 4 </h4>
+                <h5 class="display-5">display 5 </h5>
+                <h6 class="display-6">display 6 </h6>
+            </div>
+            <div class="col">
+                <p>Parrafo sin tipografia:</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Parrafo con tipografia clase="lead":</p>
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </blockquote>
+            </figure>
+            <figcaption class="blockquote-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ducimus magni praesentium, dolore maxime officiis quo unde numquam nemo, labore culpa 
+                 consequuntur sunt eveniet in harum veniam provident laboriosam quae cumque.</figcaption>
+        </div>
+    </div>
+    <hr>
+
+</body>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<p>Lorem <mark>ipsum dolor</mark> sit amet.</p>
+				<p><del>Lorem ipsum dolor sit amet.</del></p>
+				<p><s>Lorem ipsum dolor sit amet.</s></p>
+				<p><ins>Lorem ipsum dolor sit amet.</ins></p>
+				<p><u>Lorem ipsum dolor sit amet.</u></p>
+				<p><strong>Lorem ipsum dolor sit amet.</strong></p>
+				<p><em>Lorem ipsum dolor sit amet.</em></p>
+			</div>
+
+			<div class="col-6">
+				<p class="fw-bold">Texto en negritas</p>
+				<p class="fw-normal">Texto normal</p>
+				<p class="fw-light">Texto Light</p>
+				<p class="fst-italic">Texto Italic</p>
+				<p class="fst-normal">Texto con font-style normal</p>
+
+				<p class="text-decoration-underline">Texto subrayado</p>
+				<p class="text-decoration-line-through">Texto tachado</p>
+				<a href="#" class="text-decoration-none">Enlace sin subrayado</a>
+			</div>
+
+			<div class="col-12">
+				<hr>
+				<p class="text-start">Texto alineado a la izquierda</p>
+				<p class="text-center">Texto centrado</p>
+				<p class="text-end">Texto alineado a la derecha</p>
+			</div>
+			<hr>
+
+			<div class="col-12">
+				<p class="text-start text-sm-end">Alineado a la derecha en dispositivos pequeños en adelante</p>
+				<p class="text-start text-md-end">Alineado a la derecha en dispositivos medianos en adelante</p>
+				<p class="text-start text-lg-end">Alineado a la derecha en dispositivos largos en adelante</p>
+				<p class="text-start text-xl-end">Alineado a la derecha en dispositivos extra largos en adelante</p>
+			</div>
+
+			<hr>
+
+			<div class="col-12">
+				<p class="text-lowercase">Minisculas - Lorem ipsum dolor sit.</p>
+				<p class="text-uppercase">MAYUSCULES - Lorem ipsum dolor sit.</p>
+				<p class="text-capitalize">Letras Capitales - Lorem ipsum dolor sit.</p>
+			</div>
+
+			<div class="col-12">
+				<p class="fs-1">Font Size 1</p>
+				<p class="fs-2">Font Size 2</p>
+				<p class="fs-3">Font Size 3</p>
+				<p class="fs-4">Font Size 4</p>
+				<p class="fs-5">Font Size 5</p>
+				<p class="fs-6">Font Size 6</p>
+			</div>
+
+			<hr>
+
+			<div class="col-6">
+				<p class="text-primary">.text-primary</p>
+				<p class="text-secondary">.text-secondary</p>
+				<p class="text-success">.text-success</p>
+				<p class="text-danger">.text-danger</p>
+				<p class="text-dark">.text-dark</p>
+				<p class="text-body">.text-body</p>
+				<p class="text-muted">.text-muted</p>
+			</div>
+
+			<div class="col-6">
+				<p class="text-warning bg-dark">.text-warning</p>
+				<p class="text-info bg-dark">.text-info</p>
+				<p class="text-light bg-dark">.text-light</p>
+				<p class="text-white bg-dark">.text-white</p>
+
+				<p class="text-black-50">.text-black-50</p>
+				<p class="text-white-50 bg-dark">.text-black-50</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
