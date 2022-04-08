@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <style>
+
+/*
+        .row {
+            background: black;
+            height: 150px;
+            border: 1px solid white;
+        }
+
+        .col {
+            background: greenyellow;
+             text-align: center; 
+            padding: 10px;
+            border: 1px solid white;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid conta g-0">
+        <div class="row mt-4">
+            <dic class="col-2 d-none d-md-block">
+                <h1>Menu</h1>
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact us</li>
+                    <li>inicia sesion</li>
+                </ul>
+            </dic>
+            <div class="col-12 col-md-8">
+                <div class="accordion" id="temario">
+                    <!--elemento numero 1-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="encabezado-1">
+                            <button class="accordion-button cabeza_r" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#elemento-1" aria-expanded="true" aria-controls="elemento-1">
+                                Especificaciones
+                            </button>
+                        </h2>
+                        <div id="elemento-1" class="accordion-collapse collapse show text-left"
+                            aria-labelledby="encabezado-1" data-bs-parent="#temario">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestias modi ipsa
+                                corporis veniam cupiditate beatae optio voluptatem. Necessitatibus magni expedita
+                                cumque, veritatis exercitationem asperiores ratione sapiente. Quidem, harum voluptate.
+                            </p>
+                        </div>
+                    </div>
+                    <!--elemento numero 2-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="encabezado-2">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#elemento-2" aria-expanded="true" aria-controls="elemento-2">
+                                Requerimientos
+                            </button>
+                        </h2>
+                        <div id="elemento-2" class="accordion-collapse collapse show text-left"
+                            aria-labelledby="encabezado-2" data-bs-parent="#temario">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestias modi ipsa
+                                corporis veniam cupiditate beatae optio voluptatem. Necessitatibus magni expedita
+                                cumque, veritatis exercitationem asperiores ratione sapiente. Quidem, harum voluptate.
+                            </p>
+                        </div>
+                    </div>
+                    <!--elemento numero 3-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="encabezado-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#elemento-3" aria-expanded="true" aria-controls="elemento-3">
+                                Comentarios
+                            </button>
+                        </h2>
+                        <div id="elemento-3" class="accordion-collapse collapse show"
+                            aria-labelledby="encabezado-3" data-bs-parent="#temario">
+                            <div class="row ">
+                                <div class="col-sm-3 col-12 col">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint eum vitae alias
+                                        eius voluptatum, vero commodi voluptate ut? Voluptate voluptatum velit odit
+                                        voluptas quasi fugiat excepturi nihil, amet accusamus eveniet?</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col">
+                                    <h1>columna 2</h1>
+                                </div>
+                                <div class="col-sm-3 col-12 col">
+                                    <h1>columna 3</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quidem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, praesentium.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
