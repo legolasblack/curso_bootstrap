@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <style>
+        .cabecera {
+            background-color: #0277BD;
+        }
+
+        .seccion {
+            height: 100px;
+        }
+
+        .realative {
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" style="width: 20rem;">
+            <img src="/imagenes/001 (6).jpg" class="card-img-top relative" alt="...">
+            <h1 class="absolute text-white">hello absolute</h1>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+
+        <!--aqui empieza la card aproximada a google 
+        solo nos falta porderlas acomodar en la gri una despues 
+        de la otra utilizamos la propiedas de css realtive y absolute
+        para poder -->
+        <div class="card" style="width: 20rem;">
+            <a class="relative" href="#">
+                <img src="./imagenes/google.PNG" class="card-img-top realative" alt="...">
+
+            </a>
+            <a href="#" class="absolute">
+                <h2 class="text-white">Alberto caras... </h2>
+                <p class="text-light">Amo a mi gordita</p>
+            </a>
+
+            <div class="card-body">
+                <h5 class="card-title">Pendientes:</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aliquam!</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+                <button class="btn btn-secondary" title="calculador de pension">Calculo<i
+                        class="bi bi-calculator"></i></button>
+                <a href="#" class="card-link"><i class="bi bi-archive"></i></a>
+                <a href="#" class="card-link"><i class="bi bi-calculator"></i></a>
+            </div>
+        </div>
+        <!--final de la card_classrom-->
+
+
+    </div>
+
+
+
+
+
+
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 col-m-2 m-3 p-0 rounded border ">
+                <div class="row" >
+                    <div class="col-12 cabecera">
+                        <h3 class="">Reynaldo Salazar Alcazar</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="seccion"></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+</body>
+
+</html>

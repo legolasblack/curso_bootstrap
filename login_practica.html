@@ -12,17 +12,25 @@
             background-image: url("imagenes/001\ \(1\).jpg");
             background-size: 100%;
         }
+        .border{
+            background-color: white;
+        }
     </style>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row m-0 mt-3 justify-content-center">
-            <div class="col-md-3 col-sm-6 col-10 border border-secundary border-3 rounded mt-5 p-3">
-                <form class="text-light" action="">
+            <div class="p-5 col-md-4 col-sm-10 col-10 border white border-secundary border-3 rounded mt-5 p-3">
+                <h3 class="">Sign In to Homi</h3>
+                <p class="mb-0 col-3">New Here?</p>
+                <div class="mb-3 col-6">
+                    <a href="#" class="link-secondary">Create an Acount</a>
+                </div>
+                <form class="" action="">
                     <!--inicio del primer text aria con todo y si level-->
-                    <label for="correo" class="form-label">Correo electronico</label>
-                    <input type="text" class="form-control" placeholder="Correo" id="correo"
+                    <label for="correo" class="form-label">Email</label>
+                    <input type="text" class="form-control" placeholder="Email" id="correo"
                         aria-describedby="ayuda-correo">
                     <div id="ayuda-correo" class="form-text">
                         Te enviaremso un correo de confirmacion
@@ -39,6 +47,12 @@
                     <div class="d-grid gap-2 d-flex justify-content-between">
                         <button type="submit" class="btn btn-secondary col-6">Login</button>
                         <button type="submit" class="btn btn-secondary col-6">Sign up</button>
+                    </div>
+
+                    <div class="row justify-content-center">
+                       <div class="col">
+                        <p>OR</p>
+                       </div>
                     </div>
 
                 </form>
