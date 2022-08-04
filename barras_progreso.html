@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <style>
+        /* .conta {
+            border: 2px solid red;
+        }
+
+        .row {
+            background: black;
+            height: 150px;
+            border: 1px solid white;
+        }
+
+        .col {
+            background: greenyellow;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid white;
+        } */
+        :root{
+            --colorbg: greenyellow;
+            --colorbf-avance:  black;
+        }
+        .row {
+            padding-top: 50px;
+        }
+        .progress{
+            background-color: var(--colorbg);
+        }
+        .progress-bar{
+            background-color: var(--colorbf-avance);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Descripcion:
+    En esta prectica ejemplificamos los prgressbar que constan de dos div con la clase progress y progress-bar
+    los cuales cada uno modifican dos atributos principales el div.progress se encarga de modificar el color de fondo 
+    y el heigth, a su vez el div.progress-bar modificando el width obtenemos el porcentaje deseado que la barra abarque 
+    y ademas el color de fondo que puedes utilizar, el div.progress-bar tiene atributos como vuluemin, valuemax, valuenow
+    los cuales registran sus valores que el propio atributo menciona.
+    -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h6>Ingles</h6>
+                <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                        aria-valuemax="100">
+                        0%
+                    </div>
+                </div>
+                <h6>Español</h6>
+                <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 25%;">
+                        25%
+                    </div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 50%;">
+                        50%
+                    </div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 100%;">
+                        100%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
